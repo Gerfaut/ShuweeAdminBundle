@@ -48,7 +48,7 @@ _liip_imagine:
 Refer to [LiipImagineBundle official documentation](http://symfony.com/doc/current/bundles/LiipImagineBundle/index.html)
 
 
-You will need to register default Symfony Twig extensions in your main config file to be able to use Datagrid text and collection types
+You will need to register default Symfony Twig extensions in your *services.yml* file to be able to use Datagrid text and collection types
 
 ``` yaml
 services:
