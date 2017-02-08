@@ -58,8 +58,8 @@ class PostAdmin extends AbstractAdmin
     public function attachFields(DatagridInterface $datagrid)
     {
         $datagrid
-          ->addField('id', 'text')
-          ->addField('title', 'text');
+          ->addField('id', DatagridFieldTypeText::class)
+          ->addField('title', DatagridFieldTypeText::class);
     }
 }
 ```
